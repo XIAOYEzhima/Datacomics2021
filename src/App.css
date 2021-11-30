@@ -1,0 +1,53 @@
+/* scrollbar for Chrome*/
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: lightblue;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0  6px rgba(0,0,0,0);
+  background-color: lightblue;
+}
+
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0  6px rgba(0,0,0,0);
+  background-color: orange;
+}
+
+
+.App {
+  background-color:white;
+  text-align: center;
+  width:100vw;
+  height:800%;
+}
+
+.Section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;/*可以让网页容器滚动停止的时候，自动平滑定位到指定元素的指定位置*/
+  -webkit-overflow-scrolling: touch;/* 当手指从触摸屏上移开，会保持一段时间的滚动 */
+  background-color:#FFF1EC;
+  width:100vw;
+  height: 100vh;
+  /* margin-left: 10%; */
+  margin-top: 0px;
+}
+.Section__item {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 533.63px;
+  height: 100vh;
+  /* outline: solid 1px black; */
+  scroll-snap-align: start;
+  background-color: #ccc;
+  font-size: 1.5rem;
+}
+.bg-1{
+  position: relative;
+}

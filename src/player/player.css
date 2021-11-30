@@ -1,0 +1,20 @@
+.playerWrapper {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    background-color: transparent;
+}
+
+.playerControl > span {
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+.playerControl > span:hover {
+    opacity: .6;
+}
+
+.playerControl > .isPlayingButton {
+    background-color: black;
+    color: white;
+}
