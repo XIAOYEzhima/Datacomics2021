@@ -16,11 +16,14 @@
 }
 
 
+
 .App {
   background-color:white;
   text-align: center;
   width:100vw;
   height:800%;
+  min-width: 1080px;
+
 }
 
 .Section{
@@ -35,6 +38,7 @@
   height: 100vh;
   /* margin-left: 10%; */
   margin-top: 0px;
+  position:relative;
 }
 .Section__item {
   display: flex;
@@ -50,4 +54,45 @@
 }
 .bg-1{
   position: relative;
+}
+.health4{
+  position:absolute;
+  left: 18vh;
+  top: 1vh;
+  display: flex;
+  transition: all .3s ease;
+}
+.age4{
+  position:absolute;
+  top:2vh;
+  right:25vh;
+  display: flex;
+  transition: all .3s ease;
+}
+.gender4{
+  position:absolute;
+  right: 17vh;
+  top: 33vh;
+  display: flex;
+  transition: all .3s ease;
+}
+
+.location4{
+  position:absolute;
+  right: 14vh;
+  bottom: 2vh;
+  display: flex;
+  transition: all .3s ease;
+}
+.Health1{
+  cursor: pointer;
+}
+.Age1{
+  cursor: pointer;
+}
+.Gender1{
+  cursor: pointer;
+}
+.Location1{
+  cursor: pointer;
 }
