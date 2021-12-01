@@ -2,6 +2,10 @@ import './App.css';
 import React from 'react';
 import { Player } from './player';
 import { Page2 } from './page2';
+import { Page3 } from './page3';
+import { Page4 } from './page4';
+
+
 
 
 
@@ -31,7 +35,7 @@ import ScrollToTop from './back to top icon/ScrollToTop';
 
 class App extends React.Component {
 
-  
+
   state = {
     img1: require('./pic/persona/Health1.png').default,
     img2: require('./pic/persona/Age1.png').default,
@@ -52,13 +56,13 @@ class App extends React.Component {
       <div className="App">
 
         <Player />
-        <div className="Section">
+        <div className="Section" id="section">
 
 
           <div className="Section__item bg-1">
 
             <img src={Role} alt="Role"
-              style={{ height: "100vh", width: "100vh", justifyContent: 'center', alignItems: 'center' }}
+              style={{ height: "100%", width: "100%", justifyContent: 'center', alignItems: 'center' }}
             />
 
             <img src={this.state.img1} alt="Health1" className='Health1'
@@ -203,19 +207,20 @@ class App extends React.Component {
               style={{ height: "370px" }}
             />
           </div>
-        
-          <div className="Section__item bg-2">Item 2
-            <Page2 />
 
+          <Page2 />
+
+          <div className="Section__item bg-3">
+            <Page3 />
           </div>
-          <div className="Section__item bg-3">Item 3</div>
-          <div className="Section__item bg-4">Item 4</div>
+          <div className="Section__item bg-4">
+            <Page4 /></div>
           <div className="Section__item bg-5">Item 5</div>
           <div className="Section__item bg-5">Item 6</div>
           <div className="Section__item bg-5">Item 7</div>
           <div className="Section__item bg-5">Item 8</div>
         </div>
-        <ScrollToTop> </ScrollToTop>
+        {/* <ScrollToTop> </ScrollToTop> */}
       </div>
     );
   }

@@ -1,18 +1,22 @@
+.example::-webkit-scrollbar {
+  display: none;
+}
+
 /* scrollbar for Chrome*/
 ::-webkit-scrollbar {
-  width: 5px;
+  width: 10px;
   height: 5px;
-  background-color: lightblue;
+  background-color: #FFF1EC;
 }
 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0  6px rgba(0,0,0,0);
-  background-color: lightblue;
+  background-color: #FFF1EC;
 }
 
 ::-webkit-scrollbar-thumb {
   box-shadow: inset 0 0  6px rgba(0,0,0,0);
-  background-color: orange;
+  background-color: #7d68fa;
 }
 
 
@@ -20,9 +24,11 @@
 .App {
   background-color:white;
   text-align: center;
-  width:100vw;
+  width:100%;
   height:800%;
-  min-width: 1080px;
+  min-width: 1040px;
+  min-width: 716px;
+
 
 }
 
@@ -34,10 +40,8 @@
   scroll-snap-type: y mandatory;/*可以让网页容器滚动停止的时候，自动平滑定位到指定元素的指定位置*/
   -webkit-overflow-scrolling: touch;/* 当手指从触摸屏上移开，会保持一段时间的滚动 */
   background-color:#FFF1EC;
-  width:100vw;
+  width:100%;
   height: 100vh;
-  /* margin-left: 10%; */
-  margin-top: 0px;
   position:relative;
 }
 .Section__item {
@@ -46,7 +50,7 @@
   justify-content: center;
   align-items: center;
   width: 533.63px;
-  height: 100vh;
+  height: 100%;
   /* outline: solid 1px black; */
   scroll-snap-align: start;
   background-color: #ccc;
@@ -57,30 +61,30 @@
 }
 .health4{
   position:absolute;
-  left: 18vh;
-  top: 1vh;
+  left: 10%;
+  top: 1%;
   display: flex;
   transition: all .3s ease;
 }
 .age4{
   position:absolute;
-  top:2vh;
-  right:25vh;
+  top:2%;
+  right:13%;
   display: flex;
   transition: all .3s ease;
 }
 .gender4{
   position:absolute;
-  right: 17vh;
-  top: 33vh;
+  right: 7%;
+  top: 33%;
   display: flex;
   transition: all .3s ease;
 }
 
 .location4{
   position:absolute;
-  right: 14vh;
-  bottom: 2vh;
+  right: 7%;
+  bottom: 2%;
   display: flex;
   transition: all .3s ease;
 }
@@ -95,4 +99,18 @@
 }
 .Location1{
   cursor: pointer;
+}
+
+.bg-2{
+  position: relative;
+  top:0;
+  background-color:#FFF1EC;
+
+
+}
+.bg-3{
+  position: relative;
+  top:0;
+  background-color:#FFF1EC;
+
 }

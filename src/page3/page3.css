@@ -1,0 +1,56 @@
+.p1{
+    position:absolute;
+    top:1%;
+    left:-3%;
+    z-index: 2;
+}
+.p2{
+    position:absolute;
+    top:42%;
+    left:-0.5%;
+    height:100px;
+    z-index: 2;
+}
+.p3{
+    position:absolute;
+    top:46.5%;
+    left:50.9%;
+    z-index: 3;
+}
+.word1{
+    position:absolute;
+    top:15%;
+    left:-20%;
+    z-index: 4;
+}
+.word2{
+    position:absolute;
+    top:5%;
+    left:50%;
+    z-index: 5;
+}
+.word3{
+    position:absolute;
+    top:2%;
+    left:90%;
+    z-index: 6;
+}
+.word4{
+    position:absolute;
+    top:58%;
+    left:-5%;
+    z-index: 7;
+}
+.word5{
+    position:absolute;
+    top:41%;
+    left:45%;
+    z-index: 8;
+}
+
+.p4{
+    position:absolute;
+    bottom:1%;
+    left:51%;
+    z-index: 9;
+}
