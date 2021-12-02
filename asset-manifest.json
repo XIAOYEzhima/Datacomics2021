@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Datacomics2021/static/css/main.cdda43a5.chunk.css",
-    "main.js": "/Datacomics2021/static/js/main.f4ce4af5.chunk.js",
-    "main.js.map": "/Datacomics2021/static/js/main.f4ce4af5.chunk.js.map",
+    "main.css": "/Datacomics2021/static/css/main.ac6e3e5b.chunk.css",
+    "main.js": "/Datacomics2021/static/js/main.ce44e058.chunk.js",
+    "main.js.map": "/Datacomics2021/static/js/main.ce44e058.chunk.js.map",
     "runtime-main.js": "/Datacomics2021/static/js/runtime-main.0af73cb2.js",
     "runtime-main.js.map": "/Datacomics2021/static/js/runtime-main.0af73cb2.js.map",
-    "static/js/2.052472b1.chunk.js": "/Datacomics2021/static/js/2.052472b1.chunk.js",
-    "static/js/2.052472b1.chunk.js.map": "/Datacomics2021/static/js/2.052472b1.chunk.js.map",
+    "static/js/2.a5a1a622.chunk.js": "/Datacomics2021/static/js/2.a5a1a622.chunk.js",
+    "static/js/2.a5a1a622.chunk.js.map": "/Datacomics2021/static/js/2.a5a1a622.chunk.js.map",
     "index.html": "/Datacomics2021/index.html",
-    "static/css/main.cdda43a5.chunk.css.map": "/Datacomics2021/static/css/main.cdda43a5.chunk.css.map",
-    "static/js/2.052472b1.chunk.js.LICENSE.txt": "/Datacomics2021/static/js/2.052472b1.chunk.js.LICENSE.txt",
+    "static/css/main.ac6e3e5b.chunk.css.map": "/Datacomics2021/static/css/main.ac6e3e5b.chunk.css.map",
+    "static/js/2.a5a1a622.chunk.js.LICENSE.txt": "/Datacomics2021/static/js/2.a5a1a622.chunk.js.LICENSE.txt",
     "static/media/Age1.png": "/Datacomics2021/static/media/Age1.e2226ba5.png",
     "static/media/Age2.png": "/Datacomics2021/static/media/Age2.c2de3b0a.png",
     "static/media/Age4.80d69721.png": "/Datacomics2021/static/media/Age4.80d69721.png",
@@ -25,9 +25,15 @@
     "static/media/Location3.2e859577.png": "/Datacomics2021/static/media/Location3.2e859577.png",
     "static/media/Location4.188acf9a.png": "/Datacomics2021/static/media/Location4.188acf9a.png",
     "static/media/Role.08b4f3ba.png": "/Datacomics2021/static/media/Role.08b4f3ba.png",
+    "static/media/allLinkType.01dc8bdf.png": "/Datacomics2021/static/media/allLinkType.01dc8bdf.png",
+    "static/media/categoryButtonBefore.3d2126a9.png": "/Datacomics2021/static/media/categoryButtonBefore.3d2126a9.png",
     "static/media/clickme.e8df95a4.png": "/Datacomics2021/static/media/clickme.e8df95a4.png",
     "static/media/frontdoor.e247e7cb.png": "/Datacomics2021/static/media/frontdoor.e247e7cb.png",
+    "static/media/internetButtonBefore.fad3f52e.png": "/Datacomics2021/static/media/internetButtonBefore.fad3f52e.png",
+    "static/media/leftWord.97639c52.png": "/Datacomics2021/static/media/leftWord.97639c52.png",
+    "static/media/oldWomanAndGirl.c4dc899c.png": "/Datacomics2021/static/media/oldWomanAndGirl.c4dc899c.png",
     "static/media/openwindow.24b47361.png": "/Datacomics2021/static/media/openwindow.24b47361.png",
+    "static/media/ornament.def38a91.png": "/Datacomics2021/static/media/ornament.def38a91.png",
     "static/media/p1.7a37f2b9.png": "/Datacomics2021/static/media/p1.7a37f2b9.png",
     "static/media/p2.7b182ce9.png": "/Datacomics2021/static/media/p2.7b182ce9.png",
     "static/media/p3.eff42c09.png": "/Datacomics2021/static/media/p3.eff42c09.png",
@@ -35,6 +41,7 @@
     "static/media/purpletext.73ec51af.png": "/Datacomics2021/static/media/purpletext.73ec51af.png",
     "static/media/test.mp3": "/Datacomics2021/static/media/test.7c45aa0f.mp3",
     "static/media/welcome.3fd02cbb.png": "/Datacomics2021/static/media/welcome.3fd02cbb.png",
+    "static/media/word.2c543fa6.png": "/Datacomics2021/static/media/word.2c543fa6.png",
     "static/media/word1.47ffe3d5.png": "/Datacomics2021/static/media/word1.47ffe3d5.png",
     "static/media/word2.a9b568fe.png": "/Datacomics2021/static/media/word2.a9b568fe.png",
     "static/media/word3.015831aa.png": "/Datacomics2021/static/media/word3.015831aa.png",
@@ -43,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0af73cb2.js",
-    "static/js/2.052472b1.chunk.js",
-    "static/css/main.cdda43a5.chunk.css",
-    "static/js/main.f4ce4af5.chunk.js"
+    "static/js/2.a5a1a622.chunk.js",
+    "static/css/main.ac6e3e5b.chunk.css",
+    "static/js/main.ce44e058.chunk.js"
   ]
 }
