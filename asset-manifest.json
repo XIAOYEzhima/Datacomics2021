@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/Datacomics2021/static/css/main.6d4f3f37.chunk.css",
-    "main.js": "/Datacomics2021/static/js/main.85c44aea.chunk.js",
-    "main.js.map": "/Datacomics2021/static/js/main.85c44aea.chunk.js.map",
+    "main.css": "/Datacomics2021/static/css/main.11a5f523.chunk.css",
+    "main.js": "/Datacomics2021/static/js/main.749631a5.chunk.js",
+    "main.js.map": "/Datacomics2021/static/js/main.749631a5.chunk.js.map",
     "runtime-main.js": "/Datacomics2021/static/js/runtime-main.0af73cb2.js",
     "runtime-main.js.map": "/Datacomics2021/static/js/runtime-main.0af73cb2.js.map",
     "static/js/2.a5a1a622.chunk.js": "/Datacomics2021/static/js/2.a5a1a622.chunk.js",
     "static/js/2.a5a1a622.chunk.js.map": "/Datacomics2021/static/js/2.a5a1a622.chunk.js.map",
     "index.html": "/Datacomics2021/index.html",
-    "static/css/main.6d4f3f37.chunk.css.map": "/Datacomics2021/static/css/main.6d4f3f37.chunk.css.map",
+    "static/css/main.11a5f523.chunk.css.map": "/Datacomics2021/static/css/main.11a5f523.chunk.css.map",
     "static/js/2.a5a1a622.chunk.js.LICENSE.txt": "/Datacomics2021/static/js/2.a5a1a622.chunk.js.LICENSE.txt",
+    "static/media/10.1f300f12.png": "/Datacomics2021/static/media/10.1f300f12.png",
+    "static/media/11.8e07e3d8.png": "/Datacomics2021/static/media/11.8e07e3d8.png",
+    "static/media/12.f8db9a89.png": "/Datacomics2021/static/media/12.f8db9a89.png",
+    "static/media/13.9ca30bca.png": "/Datacomics2021/static/media/13.9ca30bca.png",
+    "static/media/14.a42fefb7.png": "/Datacomics2021/static/media/14.a42fefb7.png",
+    "static/media/15.92017da6.png": "/Datacomics2021/static/media/15.92017da6.png",
+    "static/media/16.a7fc2d20.png": "/Datacomics2021/static/media/16.a7fc2d20.png",
+    "static/media/17.da5e212a.png": "/Datacomics2021/static/media/17.da5e212a.png",
+    "static/media/18.ced1b643.png": "/Datacomics2021/static/media/18.ced1b643.png",
+    "static/media/19.e3bf8268.png": "/Datacomics2021/static/media/19.e3bf8268.png",
     "static/media/6.4d25c3c1.png": "/Datacomics2021/static/media/6.4d25c3c1.png",
+    "static/media/7.0b2adeea.png": "/Datacomics2021/static/media/7.0b2adeea.png",
+    "static/media/9.9f707bcc.png": "/Datacomics2021/static/media/9.9f707bcc.png",
     "static/media/Age1.png": "/Datacomics2021/static/media/Age1.e2226ba5.png",
     "static/media/Age2.png": "/Datacomics2021/static/media/Age2.c2de3b0a.png",
     "static/media/Age4.80d69721.png": "/Datacomics2021/static/media/Age4.80d69721.png",
@@ -52,7 +64,7 @@
   "entrypoints": [
     "static/js/runtime-main.0af73cb2.js",
     "static/js/2.a5a1a622.chunk.js",
-    "static/css/main.6d4f3f37.chunk.css",
-    "static/js/main.85c44aea.chunk.js"
+    "static/css/main.11a5f523.chunk.css",
+    "static/js/main.749631a5.chunk.js"
   ]
 }
