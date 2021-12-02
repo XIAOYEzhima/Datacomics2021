@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Datacomics2021/static/css/main.11a5f523.chunk.css",
-    "main.js": "/Datacomics2021/static/js/main.749631a5.chunk.js",
-    "main.js.map": "/Datacomics2021/static/js/main.749631a5.chunk.js.map",
+    "main.js": "/Datacomics2021/static/js/main.a833201a.chunk.js",
+    "main.js.map": "/Datacomics2021/static/js/main.a833201a.chunk.js.map",
     "runtime-main.js": "/Datacomics2021/static/js/runtime-main.0af73cb2.js",
     "runtime-main.js.map": "/Datacomics2021/static/js/runtime-main.0af73cb2.js.map",
     "static/js/2.a5a1a622.chunk.js": "/Datacomics2021/static/js/2.a5a1a622.chunk.js",
@@ -65,6 +65,6 @@
     "static/js/runtime-main.0af73cb2.js",
     "static/js/2.a5a1a622.chunk.js",
     "static/css/main.11a5f523.chunk.css",
-    "static/js/main.749631a5.chunk.js"
+    "static/js/main.a833201a.chunk.js"
   ]
 }
