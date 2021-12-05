@@ -1,0 +1,138 @@
+.whiteboard{
+    position:absolute;
+    top:1%;
+    left:-47%;
+}
+.people{
+    position:absolute;
+    top:1%;
+    left:-47%;
+    z-index: 1000;
+}
+.overalldiagram{
+    position:absolute;
+    top:10%;
+    left:10%;
+}
+.overalldiagram{
+    position:absolute;
+    top:10%;
+    left:5%;
+}
+.clickbuttons{
+    position:absolute;
+    top:10%;
+    left:110%;
+}
+.overalltext{
+    position:absolute;
+    top: 25%;
+    left:110%;
+}
+.squarebotton{
+    cursor: pointer;
+
+}
+
+.buttonoverallbefore{
+    position:absolute;
+    top: 10%;
+    left: 82%;
+}
+.button2021before{
+    position:absolute;
+    top: 19%;
+    left: 82%;
+}
+.button2020before{
+    position:absolute;
+    top: 28%;
+    left: 82%;
+}
+.button2019before{
+    position:absolute;
+    top: 37%;
+    left: 82%;
+}
+.button2018before{
+    position:absolute;
+    top: 46%;
+    left: 82%;
+}
+.line2018{
+    position:absolute;
+    top: 25%;
+    left: 12.8%;
+}
+
+.line2019{
+    position:absolute;
+    top: 10%;
+    left: 12.8%;
+}
+.line2020{
+    position:absolute;
+    top: 9%;
+    left: 12.8%;
+}
+.line2021{
+    position:absolute;
+    top: 10%;
+    left: 12.8%;
+}
+
+.squarebutton{
+    cursor: pointer;
+    z-index: 1100;
+}
+.circlebutton{
+
+    z-index: 1100;
+    cursor: pointer;
+}
+
+.malebuttonbefore{
+    position:absolute;
+    top: 52%;
+    left: 12%;
+}
+.femalebuttonbefore{
+    position:absolute;
+    top: 52%;
+    left: 39%;
+}
+.comparisionbuttonbefore{
+    position:absolute;
+    top: 52%;
+    left: 65%;
+}
+.maletext{
+    position:absolute;
+    top: 60%;
+    left: 110%;
+}
+.femaletext{
+    position:absolute;
+    top: 60%;
+    left: 110%;
+}
+.comparisontext{
+    position:absolute;
+    top: 60%;
+    left: 110%;
+}
+.malediagram{
+    position:absolute;
+    top: 61.5%;
+    left: 6%;
+}
+.femalediagram{
+    position:absolute;
+    top: 61.5%;
+    left: 6%;
+}
+.comparisondiagram{
+    position:absolute;
+    top: 61.5%;
+    left: 6%;
+}

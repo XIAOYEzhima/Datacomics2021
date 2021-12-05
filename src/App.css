@@ -53,11 +53,19 @@
   height: 100%;
   /* outline: solid 1px black; */
   scroll-snap-align: start;
-  background-color: #ccc;
+  background-color: #000000;
   font-size: 1.5rem;
+  top:0%;
+
+}
+.cover{
+  position: relative;
+}
+.aboutme{
+  position:relative;
 }
 .bg-1{
-  position: relative;
+  position:absolute;
 }
 .health4{
   position:absolute;
@@ -65,6 +73,8 @@
   top: 1%;
   display: flex;
   transition: all .3s ease;
+  z-index: 1;
+  
 }
 .age4{
   position:absolute;
@@ -72,6 +82,7 @@
   right:13%;
   display: flex;
   transition: all .3s ease;
+  z-index: 1;
 }
 .gender4{
   position:absolute;
@@ -79,6 +90,7 @@
   top: 33%;
   display: flex;
   transition: all .3s ease;
+  z-index: 1;
 }
 
 .location4{
@@ -87,18 +99,27 @@
   bottom: 2%;
   display: flex;
   transition: all .3s ease;
+  z-index: 1;
+
 }
 .Health1{
   cursor: pointer;
+  z-index: 101;
 }
 .Age1{
   cursor: pointer;
+  z-index: 101;
+
 }
 .Gender1{
   cursor: pointer;
+  z-index: 101;
+
 }
 .Location1{
   cursor: pointer;
+  z-index: 101;
+
 }
 
 .bg-2{
@@ -114,3 +135,14 @@
   background-color:#FFF1EC;
 
 }
+.bg-4{
+  position: relative;
+  top:0;
+
+}
+.bg-5{
+  position: relative;
+  top:0;
+
+}
+

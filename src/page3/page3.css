@@ -3,6 +3,11 @@
     top:1%;
     left:-3%;
     z-index: 2;
+    /* animation: move 1s;
+    animation-delay:0s;
+    animation-iteration-count:infinite; */
+
+
 }
 .p2{
     position:absolute;
@@ -53,4 +58,11 @@
     bottom:1%;
     left:51%;
     z-index: 9;
+}
+@keyframes move {
+    0% { transform: translateX(100px) ; }
+   
+    50% { transform: translate(0); }
+   
+    100% { transform: translate(-100); }
 }

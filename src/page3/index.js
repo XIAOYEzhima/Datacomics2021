@@ -10,7 +10,6 @@ import word3 from '../pic/page3/word3.png';
 import word4 from '../pic/page3/word4.png';
 import word5 from '../pic/page3/word5.png';
 
-import p4 from '../pic/page3/p4.png';
 
 
 class Page3 extends React.Component {
@@ -33,7 +32,7 @@ class Page3 extends React.Component {
                 <img src={word4} alt="word4" className='word4'style={{ height: '180px' }}></img>
                 <img src={word5} alt="word5" className='word5'style={{ height: '320px' }}></img>
 
-                <img src={p4} alt="p4" className='p4'style={{ height: '230px' }}></img>
+                {/* <img src={p4} alt="p4" className='p4'style={{ height: '230px' }}></img> */}
 
 
 
