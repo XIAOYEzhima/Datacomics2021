@@ -1,0 +1,37 @@
+.satisfaction{
+
+    position: absolute;
+    top:1%;
+    left:-0.5%;
+
+}
+.agreement{
+
+    position: absolute;
+    top:1%;
+    left:52.5%;
+    
+    
+}
+.livein{
+
+    position: absolute;
+    bottom:1%;
+    left:0;
+}
+.satisfactiontext{
+
+    position: absolute;
+    top:2%;
+    left:-45%;
+    
+}
+
+
+.agreementtext{
+
+    position: absolute;
+    top:2%;
+    left:91%;
+    
+}

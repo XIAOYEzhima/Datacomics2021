@@ -1,0 +1,95 @@
+.clock{
+position:absolute;
+top:0;
+left:-15%;
+z-index: 111;
+
+}
+
+.Yclickbefore{
+    position:absolute;
+    top:22%;
+    left:28%;
+    
+}
+.Yclickafter{
+    position:absolute;
+    top:22%;
+    left:80%;
+    
+}
+.before{
+    position:absolute;
+    top:2.5%;
+    left:0;
+    
+}
+.after{
+    position:absolute;
+    top:2.5%;
+    left:47%;
+    
+}
+.beforetext{
+    position:absolute;
+    top:2%;
+    left:25%;
+    
+}
+.aftertext{
+    position:absolute;
+    top:10%;
+    left:57%;
+}
+.distribution{
+    position:absolute;
+    bottom:1%;
+    left:0%;
+}
+.distribution{
+    position:absolute;
+    bottom:1%;
+    left:0%;
+}
+.Ygenderbuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:4%;
+}
+.Yagebuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:28%;
+}
+.Ylocationbuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:52%;
+}
+.Yhealthbuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:76%;
+}
+
+
+.Ylefttopdiagram{
+    position:absolute;
+    top:2%;
+    left:-60%;
+}
+.Yleftbottomdiagram{
+    position:absolute;
+    bottom:2.5%;
+    left:-60%;
+}
+.Yrighttopdiagram{
+    position:absolute;
+    top:2%;
+    right:-50%;
+}
+.Yrightbottomdiagram{
+    position:absolute;
+    bottom:3.5%;
+    right:-50%;
+}

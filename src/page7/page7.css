@@ -1,0 +1,98 @@
+.clock{
+position:absolute;
+top:0;
+left:-15%;
+z-index: 111;
+
+}
+
+.clickbefore{
+    position:absolute;
+    top:22%;
+    left:28%;
+    
+}
+.clickafter{
+    position:absolute;
+    top:22%;
+    left:80%;
+    
+}
+.before{
+    position:absolute;
+    top:2.5%;
+    left:0;
+    cursor: pointer;
+    
+}
+.after{
+    position:absolute;
+    top:2.5%;
+    left:47%;
+    cursor: pointer;
+    
+}
+.beforetext{
+    position:absolute;
+    top:2%;
+    left:25%;
+    
+}
+.aftertext{
+    position:absolute;
+    top:10%;
+    left:57%;
+}
+.distribution{
+    position:absolute;
+    bottom:1%;
+    left:0%;
+}
+.distribution{
+    position:absolute;
+    bottom:1%;
+    left:0%;
+    animation-delay: 3s;
+}
+.genderbuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:4%;
+}
+.agebuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:28%;
+}
+.locationbuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:52%;
+}
+.healthbuttonbefore{
+    position:absolute;
+    bottom:3.5%;
+    left:76%;
+}
+
+
+.lefttopdiagram{
+    position:absolute;
+    top:2%;
+    left:-60%;
+}
+.leftbottomdiagram{
+    position:absolute;
+    bottom:2.5%;
+    left:-60%;
+}
+.righttopdiagram{
+    position:absolute;
+    top:2%;
+    right:-50%;
+}
+.rightbottomdiagram{
+    position:absolute;
+    bottom:3.5%;
+    right:-50%;
+}

@@ -30,17 +30,20 @@
     position:absolute;
     top:10%;
     left:-60%;
+    cursor: pointer;
 }
 .internetButtonBefore{
     position:absolute;
     top:20%;
     left:-35%;
+    cursor: pointer;
 }
 .arrow2{
     position:absolute;
-    top:21%;
-    left:-35%;
+    top:25%;
+    left:-40%;
     z-index: 11;
+
     /* animation: shake 0.5s;
     animation-iteration-count: infinite; */
 
@@ -63,16 +66,87 @@
 }
 .linkassessed{
     position:absolute;
-    top:1%;
-    left:-0.7%;
+    top:18%;
+    left:15%;
 }
 .maleusage{
     position:absolute;
-    top:50%;
-    left:-0.7%;
+    top:52%;
+    left:10%;
 }
 .femaleusage{
     position:absolute;
+    top:52%;
+    left:38%;
+}
+.overall{
+    position:absolute;
+    top:52%;
+    left:66%;
+}
+.clickthebutton{
+    position:absolute;
     top:50%;
-    left:-0.7%;
+    right:-40%;
+}
+.usagebymale{
+    position:absolute;
+    top:64%;
+    left:5%;
+}
+.usagebyfemale{
+    position:absolute;
+    top:64%;
+    left:5%;
+}
+.usagebygender{
+    position:absolute;
+    top:64%;
+    left:5.5%;
+}
+.compare{
+    position:absolute;
+    top:60.5%;
+    left:66%;
+}
+.malebuttonbefore{
+    position:absolute;
+    top:51.8%;
+    left:10%;
+}
+.femalebuttonbefore{
+    position:absolute;
+    top:51.8%;
+    left:38%;
+}
+.overallbuttonbefore{
+    position:absolute;
+    top:51.8%;
+    left:66%;
+}
+.comparebutton{
+    position:absolute;
+    top:60.5%;
+    left:66%;
+}
+.internetdiagram{
+    position:absolute;
+    top:18%;
+    left:15%;
+}
+
+.p5malediagram{
+    position:absolute;
+    top:64%;
+    left:5%;
+}
+.p5femalediagram{
+    position:absolute;
+    top:64%;
+    left:5%;
+}
+.comparediagram{
+    position:absolute;
+    top:63.4%;
+    left:4.6%;
 }

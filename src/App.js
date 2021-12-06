@@ -5,6 +5,12 @@ import { Page2 } from './page2';
 import { Page3 } from './page3';
 import { Page4 } from './page4';
 import { Page5 } from './page5';
+import { Page6 } from './page6';
+import { Page7 } from './page7';
+import { Page8 } from './page8';
+
+
+
 
 
 
@@ -207,24 +213,21 @@ class App extends React.Component {
               style={{ width: "120px", position: 'absolute', top: '76%', left: '75%', zIndex: "102" }}
             />
 
-            <div className='health4' style={{ opacity: this.state.health4opacity }}>
-              <img src={Health4} alt="Health4"
-                style={{ height: "720px" }}
-              />
-            </div>
 
-            <div className='age4' style={{ opacity: this.state.age4opacity }}>
-              <img src={Age4} alt="Age4"
-                style={{ height: "200px" }}
-              />
-            </div>
 
-            <div className='gender4' style={{ opacity: this.state.gender4opacity }}>
-              <img src={Gender4} alt="Gender4"
-                style={{ height: "100px" }}
+            <img src={Health4} alt="Health4" className='health4'
+                style={{ height: "720px", opacity: this.state.health4opacity }}
               />
-            </div>
 
+            <img src={Age4} alt="Age4" className='age4'
+                style={{ height: "200px", opacity: this.state.age4opacity }}
+              />
+
+
+            <img src={Gender4} alt="Gender4" className='gender4'
+                style={{ height: "100px", opacity: this.state.gender4opacity }}
+              />
+            
 
               <img src={Location4} alt="Location4" className='location4'
                 style={{ height: "370px", opacity: this.state.location4opacity }}
@@ -249,17 +252,16 @@ class App extends React.Component {
           <div className="Section__item bg-5"> <Page5 /></div>
           <div className="Section__item bg-6">
 
-            <img src={page6} alt="page6" className='allpage 6' style={{ height: '720px' }}></img>
-
+          <Page6 />
           </div>
           <div className="Section__item bg-7">
-            <img src={page7} alt="page4" className='allpage 7' style={{ height: '720px' }}></img>
+          <Page7 />
 
           </div>
           <div className="Section__item bg-8">
-            <img src={page8} alt="page4" className='allpage 8' style={{ height: '720px' }}></img>
-
+          <Page8 />
           </div>
+
           <div className="Section__item bg-9">
             <img src={page9} alt="page4" className='allpage 9' style={{ height: '720px' }}></img>
 

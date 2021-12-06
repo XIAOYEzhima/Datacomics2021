@@ -33,21 +33,7 @@ import whiteboard from '../pic/page4/WhiteBoard.png';
 
 
 class Page4 extends React.Component {
-    state = {
-        img2018: require('../pic/page4/Line2018.png').default,
-        img2019: require('../pic/page4/Line2019.png').default,
-        img2020: require('../pic/page4/Line2020.png').default,
-        img2021: require('../pic/page4/Line2021.png').default,
 
-        visible2018: true,
-        visible2019: false,
-        visible2020: false,
-        visible2021: false,
-        visibleoverall: false,
-
-
-
-    }
 
     render() {
 
@@ -64,7 +50,7 @@ class Page4 extends React.Component {
 
                 <img src={comparisontext} alt="comparisontext" className='text comparisontext' id= 'comparisontext' style={{ height: '210px', display:'none' }}></img>
                 <img src={maletext} alt="maletext" className='text maletext' id= 'maletext' style={{ height: '130px', display:'none' }}></img>
-                <img src={femaletext} alt="femaletext" className='text femaletext' id= 'femaletext' style={{ height: '130px', display:'block'}}></img>
+                <img src={femaletext} alt="femaletext" className='text femaletext' id= 'femaletext' style={{ height: '130px', display:'none'}}></img>
 
                 <img src={buttonoverallbefore} alt="buttonoverallbefore" className='squarebutton buttonoverallbefore' style={{ height: '35px' }}
 
