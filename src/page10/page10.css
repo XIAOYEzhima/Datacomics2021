@@ -6,13 +6,13 @@ z-index: 111;
 
 }
 
-.Yclickbefore{
+.Cclickbefore{
     position:absolute;
     top:22%;
     left:28%;
     
 }
-.Yclickafter{
+.Cclickafter{
     position:absolute;
     top:22%;
     left:80%;
@@ -30,16 +30,16 @@ z-index: 111;
     left:47%;
     
 }
-.beforetext{
+.Cbeforeusingtext{
     position:absolute;
-    top:2%;
-    left:25%;
+    top:20%;
+    left:-20%;
     
 }
-.aftertext{
+.Cafterusingtext{
     position:absolute;
-    top:10%;
-    left:57%;
+    top:2%;
+    left:85%;
 }
 .distribution{
     position:absolute;
@@ -51,45 +51,45 @@ z-index: 111;
     bottom:1%;
     left:0%;
 }
-.Ygenderbuttonbefore{
+.Cgenderbuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:4%;
 }
-.Yagebuttonbefore{
+.Cagebuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:28%;
 }
-.Ylocationbuttonbefore{
+.Clocationbuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:52%;
 }
-.Yhealthbuttonbefore{
+.Chealthbuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:76%;
 }
 
 
-.Ylefttopdiagram{
+.Clefttopdiagram{
     position:absolute;
     top:2%;
     left:-60%;
 }
-.Yleftbottomdiagram{
+.Cleftbottomdiagram{
     position:absolute;
     bottom:2.5%;
     left:-60%;
 }
-.Yrighttopdiagram{
+.Crighttopdiagram{
     position:absolute;
     top:2%;
     right:-50%;
 }
-.Yrightbottomdiagram{
+.Chealthdiagram{
     position:absolute;
-    bottom:3.5%;
-    right:-50%;
+    bottom:2%;
+    right:-52%;
 }

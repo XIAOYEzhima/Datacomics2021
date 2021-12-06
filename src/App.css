@@ -53,11 +53,11 @@
   height: 100%;
   /* outline: solid 1px black; */
   scroll-snap-align: start;
-  background-color: #000000;
+  background-color: #FFF1EC;
   font-size: 1.5rem;
   top:0%;
   position: relative;
-  
+
 
 }
 .cover{

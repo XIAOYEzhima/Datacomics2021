@@ -6,13 +6,13 @@ z-index: 111;
 
 }
 
-.clickbefore{
+.Fclickbefore{
     position:absolute;
     top:22%;
     left:28%;
     
 }
-.clickafter{
+.Fclickafter{
     position:absolute;
     top:22%;
     left:80%;
@@ -22,14 +22,12 @@ z-index: 111;
     position:absolute;
     top:2.5%;
     left:0;
-    cursor: pointer;
     
 }
 .after{
     position:absolute;
     top:2.5%;
     left:47%;
-    cursor: pointer;
     
 }
 .beforetext{
@@ -52,47 +50,46 @@ z-index: 111;
     position:absolute;
     bottom:1%;
     left:0%;
-    animation-delay: 3s;
 }
-.genderbuttonbefore{
+.Fgenderbuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:4%;
 }
-.agebuttonbefore{
+.Fagebuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:28%;
 }
-.locationbuttonbefore{
+.Flocationbuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:52%;
 }
-.healthbuttonbefore{
+.Fhealthbuttonbefore{
     position:absolute;
     bottom:3.5%;
     left:76%;
 }
 
 
-.lefttopdiagram{
+.Flefttopdiagram{
     position:absolute;
     top:2%;
     left:-60%;
 }
-.leftbottomdiagram{
+.Fleftbottomdiagram{
     position:absolute;
     bottom:2.5%;
     left:-60%;
 }
-.righttopdiagram{
+.Frighttopdiagram{
     position:absolute;
     top:2%;
     right:-50%;
 }
-.rightbottomdiagram{
+.Frightbottomdiagram{
     position:absolute;
-    bottom:2%;
-    right:-55%;
+    bottom:3.5%;
+    right:-50%;
 }

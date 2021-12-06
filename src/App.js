@@ -8,6 +8,13 @@ import { Page5 } from './page5';
 import { Page6 } from './page6';
 import { Page7 } from './page7';
 import { Page8 } from './page8';
+import { Page9 } from './page9';
+import { Page10 } from './page10';
+import { Page11 } from './page11';
+import { Page12 } from './page12';
+
+import { Pagecover } from './pagecover';
+import { Pageforeword } from './pageforeword';
 
 
 
@@ -37,17 +44,6 @@ import Gender4 from './pic/persona/Gender4.png';
 // import Age1 from './pic/persona/Age1.png';
 import Age3 from './pic/persona/Age3.png';
 import Age4 from './pic/persona/Age4.png';
-import page6 from './pic/page6/9.png';
-import page7 from './pic/page7/10.png';
-import page8 from './pic/page8/11.png';
-import page9 from './pic/page9/12.png';
-import page10 from './pic/page10/13.png';
-import page11 from './pic/page11/14.png';
-import page12 from './pic/page12/15.png';
-import page13 from './pic/page13/16.png';
-import page14 from './pic/page14/17.png';
-import page15 from './pic/page15/18.png';
-import page16 from './pic/page16/19.png';
 
 
 
@@ -83,10 +79,13 @@ class App extends React.Component {
         <Player />
         <div className="Section" id="section">
           <div className="Section__item cover">
-            <h1>Cover</h1>
+
+            <Pagecover />
+
           </div>
           <div className="Section__item aboutme">
             <p>about project</p>
+             <Pageforeword />
           </div>
 
           <div className="Section__item bg-1">
@@ -263,37 +262,20 @@ class App extends React.Component {
           </div>
 
           <div className="Section__item bg-9">
-            <img src={page9} alt="page4" className='allpage 9' style={{ height: '720px' }}></img>
-
+          <Page9 />
           </div>
           <div className="Section__item bg-10">
-            <img src={page10} alt="page4" className='allpage 10' style={{ height: '720px' }}></img>
-
+          <Page10 />
           </div>
           <div className="Section__item bg-11">
-            <img src={page11} alt="page4" className='allpage 11' style={{ height: '720px' }}></img>
-
+          <Page11 />
           </div>
           <div className="Section__item bg-12">
-            <img src={page12} alt="page4" className='allpage 12' style={{ height: '720px' }}></img>
+          <Page12 />
+
 
           </div>
-          <div className="Section__item bg-13">
-            <img src={page13} alt="page4" className='allpage 13' style={{ height: '720px' }}></img>
-
-          </div>
-          <div className="Section__item bg-14">
-            <img src={page14} alt="page4" className='allpage 14' style={{ height: '720px' }}></img>
-
-          </div>
-          <div className="Section__item bg-15">
-            <img src={page15} alt="page4" className='allpage 15' style={{ height: '720px' }}></img>
-
-          </div>
-          <div className="Section__item bg-16">
-            <img src={page16} alt="page4" className='allpage 16' style={{ height: '720px' }}></img>
-
-          </div>
+          
 
         </div>
         {/* <ScrollToTop> </ScrollToTop> */}
