@@ -1,6 +1,6 @@
 import React from "react";
 import './page12.css';
-import Agnes from '../pic/page11/Agnes.png';
+import thankyouforwatching from '../pic/thankyouforwatching/thankyouforwatching.png';
 
 
 
@@ -13,11 +13,10 @@ class Page12 extends React.Component {
 
 
         return (<div>
+<img src={thankyouforwatching} alt="thankyouforwatching" className='thankyouforwatching' id='thankyouforwatching' style={{ height: '310px'}}></img>
 
 
 
-        <h1>Thanks For Watching!</h1>
- 
 
         </div>)
 

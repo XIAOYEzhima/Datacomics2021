@@ -13,7 +13,9 @@ import { Page10 } from './page10';
 import { Page11 } from './page11';
 import { Page12 } from './page12';
 
-import { Pagecover } from './pagecover';
+import { Pagehowtoread } from './pagehowtoread';
+import { Pagehowtoread2 } from './pagehowtoread2';
+
 import { Pageforeword } from './pageforeword';
 
 
@@ -79,13 +81,15 @@ class App extends React.Component {
         <Player />
         <div className="Section" id="section">
           <div className="Section__item cover">
+            <Pageforeword />
 
-            <Pagecover />
 
           </div>
           <div className="Section__item aboutme">
-            <p>about project</p>
-             <Pageforeword />
+            <Pagehowtoread />
+          </div>
+          <div className="Section__item howtoreadme2">
+            <Pagehowtoread2 />
           </div>
 
           <div className="Section__item bg-1">
@@ -215,23 +219,23 @@ class App extends React.Component {
 
 
             <img src={Health4} alt="Health4" className='health4'
-                style={{ height: "720px", opacity: this.state.health4opacity }}
-              />
+              style={{ height: "720px", opacity: this.state.health4opacity }}
+            />
 
             <img src={Age4} alt="Age4" className='age4'
-                style={{ height: "200px", opacity: this.state.age4opacity }}
-              />
+              style={{ height: "200px", opacity: this.state.age4opacity }}
+            />
 
 
             <img src={Gender4} alt="Gender4" className='gender4'
-                style={{ height: "100px", opacity: this.state.gender4opacity }}
-              />
-            
+              style={{ height: "100px", opacity: this.state.gender4opacity }}
+            />
 
-              <img src={Location4} alt="Location4" className='location4'
-                style={{ height: "370px", opacity: this.state.location4opacity }}
-              />
-            
+
+            <img src={Location4} alt="Location4" className='location4'
+              style={{ height: "370px", opacity: this.state.location4opacity }}
+            />
+
 
 
 
@@ -251,31 +255,31 @@ class App extends React.Component {
           <div className="Section__item bg-5"> <Page5 /></div>
           <div className="Section__item bg-6">
 
-          <Page6 />
+            <Page6 />
           </div>
           <div className="Section__item bg-7">
-          <Page7 />
+            <Page7 />
 
           </div>
           <div className="Section__item bg-8">
-          <Page8 />
+            <Page8 />
           </div>
 
           <div className="Section__item bg-9">
-          <Page9 />
+            <Page9 />
           </div>
           <div className="Section__item bg-10">
-          <Page10 />
+            <Page10 />
           </div>
           <div className="Section__item bg-11">
-          <Page11 />
+            <Page11 />
           </div>
           <div className="Section__item bg-12">
-          <Page12 />
+            <Page12 />
 
 
           </div>
-          
+
 
         </div>
         {/* <ScrollToTop> </ScrollToTop> */}
