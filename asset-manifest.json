@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Datacomics2021/static/css/main.670cef43.chunk.css",
-    "main.js": "/Datacomics2021/static/js/main.274c171d.chunk.js",
-    "main.js.map": "/Datacomics2021/static/js/main.274c171d.chunk.js.map",
+    "main.css": "/Datacomics2021/static/css/main.f786d2b8.chunk.css",
+    "main.js": "/Datacomics2021/static/js/main.2b523080.chunk.js",
+    "main.js.map": "/Datacomics2021/static/js/main.2b523080.chunk.js.map",
     "runtime-main.js": "/Datacomics2021/static/js/runtime-main.0af73cb2.js",
     "runtime-main.js.map": "/Datacomics2021/static/js/runtime-main.0af73cb2.js.map",
     "static/js/2.a5a1a622.chunk.js": "/Datacomics2021/static/js/2.a5a1a622.chunk.js",
     "static/js/2.a5a1a622.chunk.js.map": "/Datacomics2021/static/js/2.a5a1a622.chunk.js.map",
     "index.html": "/Datacomics2021/index.html",
-    "static/css/main.670cef43.chunk.css.map": "/Datacomics2021/static/css/main.670cef43.chunk.css.map",
+    "static/css/main.f786d2b8.chunk.css.map": "/Datacomics2021/static/css/main.f786d2b8.chunk.css.map",
     "static/js/2.a5a1a622.chunk.js.LICENSE.txt": "/Datacomics2021/static/js/2.a5a1a622.chunk.js.LICENSE.txt",
     "static/media/AfterUsing.0b31a42b.png": "/Datacomics2021/static/media/AfterUsing.0b31a42b.png",
     "static/media/AfterUsingImage.14184ef7.png": "/Datacomics2021/static/media/AfterUsingImage.14184ef7.png",
@@ -127,7 +127,10 @@
     "static/media/clickme.e8df95a4.png": "/Datacomics2021/static/media/clickme.e8df95a4.png",
     "static/media/compare.23b8ce2b.png": "/Datacomics2021/static/media/compare.23b8ce2b.png",
     "static/media/femaleUsage.6acfad4d.png": "/Datacomics2021/static/media/femaleUsage.6acfad4d.png",
+    "static/media/foreword.b02a873f.png": "/Datacomics2021/static/media/foreword.b02a873f.png",
     "static/media/frontdoor.e247e7cb.png": "/Datacomics2021/static/media/frontdoor.e247e7cb.png",
+    "static/media/how_to_read_1.c5079722.png": "/Datacomics2021/static/media/how_to_read_1.c5079722.png",
+    "static/media/how_to_read_2.0a0539a2.png": "/Datacomics2021/static/media/how_to_read_2.0a0539a2.png",
     "static/media/internetButtonBefore.fad3f52e.png": "/Datacomics2021/static/media/internetButtonBefore.fad3f52e.png",
     "static/media/leftWord.97639c52.png": "/Datacomics2021/static/media/leftWord.97639c52.png",
     "static/media/linkAssessed.a71709c3.png": "/Datacomics2021/static/media/linkAssessed.a71709c3.png",
@@ -142,6 +145,7 @@
     "static/media/p3.eff42c09.png": "/Datacomics2021/static/media/p3.eff42c09.png",
     "static/media/purpletext.73ec51af.png": "/Datacomics2021/static/media/purpletext.73ec51af.png",
     "static/media/test.mp3": "/Datacomics2021/static/media/test.7c45aa0f.mp3",
+    "static/media/thankyouforwatching.aa955fbe.png": "/Datacomics2021/static/media/thankyouforwatching.aa955fbe.png",
     "static/media/usageByFemale.1f2e1810.png": "/Datacomics2021/static/media/usageByFemale.1f2e1810.png",
     "static/media/usageByGender.dcc2fa51.png": "/Datacomics2021/static/media/usageByGender.dcc2fa51.png",
     "static/media/usageByMale.6f199f81.png": "/Datacomics2021/static/media/usageByMale.6f199f81.png",
@@ -156,7 +160,7 @@
   "entrypoints": [
     "static/js/runtime-main.0af73cb2.js",
     "static/js/2.a5a1a622.chunk.js",
-    "static/css/main.670cef43.chunk.css",
-    "static/js/main.274c171d.chunk.js"
+    "static/css/main.f786d2b8.chunk.css",
+    "static/js/main.2b523080.chunk.js"
   ]
 }
